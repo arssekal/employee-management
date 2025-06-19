@@ -1,0 +1,55 @@
+.employee {
+    margin: 40px auto;
+    background-color: ;
+    border: 2px solid #777;
+    width: 60%;
+    border-radius: 5px;
+}
+h2 {
+    margin: 15px 0;
+}
+label {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 80%;
+}
+input {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+input:focus {
+    outline: none;
+}
+button {
+    padding: 10px 20px;
+    background-color: rgba(0, 128, 0, 0.918);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transform: translateX(10px);
+    cursor: pointer;
+}
+button:hover {
+    background-color: green;
+    box-shadow: 0 0px 6px rgba(0, 128, 0, 0.726);
+}
+.update {
+    background-color: rgba(0, 0, 255, 0.884);
+    color: white;
+    margin: 0;
+}
+.update:hover {
+    background-color: rgb(0, 0, 255);
+    box-shadow: 0 0px 6px rgba(0, 0, 255, 0.863);
+}
+.delete {
+    background-color: rgba(255, 0, 0, 0.89);
+    color: white;
+}
+.delete:hover {
+    background-color: red;
+    box-shadow: 0 0px 6px rgba(255, 0, 0, 0.842);
+}
